@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Board</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1>BOARD</h1>
+
+		<server-lease-board data-board-id="data/intro" data-board-page="">
+			<a href="/view.html?id={{ %% BOARD_POST_ID %% }}">
+				<li>
+					{{ %% BOARD_POST_ID %% }} | {{ %% BOARD_POST_TITLE %% }} | {{ %% BOARD_POST_WRITER %% }}
+				</li>
+			</a>
+		</server-lease-board>
+
+		<button onclick="location.href='board.html?page=1'">1페이지</button>
+		<button onclick="location.href='board.html?page=2'">2페이지</button>
+		<script src="/index.js" />
+	</body>
+</html>
