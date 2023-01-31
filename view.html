@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>View</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1>VIEW</h1>
+
+		<server-lease-view data-board-id="data/intro" data-view-id="">
+			<div>번호 : {{ %% VIEW_POST_ID %% }}</div>
+			<div>제목 : {{ %% VIEW_POST_TITLE %% }}</div>
+			<pre>내용 : {{ %% VIEW_POST_BODY %% }}</pre>
+		</server-lease-view>
+
+		<script src="./index.js" />
+	</body>
+</html>
