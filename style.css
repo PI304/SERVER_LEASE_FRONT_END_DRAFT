@@ -1,0 +1,13 @@
+* {
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	color: lightcoral;
+	list-style-type: none;
+	margin: 5px 0;
+}
